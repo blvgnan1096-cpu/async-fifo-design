@@ -69,6 +69,15 @@ This project utilizes the following open-source EDA tools for simulation, synthe
 - **Yosys**: Open synthesis suite for synthesizing RTL to gate-level netlists
 - **OpenSTA**: Static timing analysis tool for verifying timing constraints
 
+- ### Download Links
+
+Official download links for the tools used in this project:
+
+- **Icarus Verilog**: [https://github.com/steveicarus/iverilog](https://github.com/steveicarus/iverilog)
+- **GTKWave**: [https://gtkwave.sourceforge.net/](https://gtkwave.sourceforge.net/)
+- **Yosys**: [https://github.com/YosysHQ/yosys](https://github.com/YosysHQ/yosys)
+- **OpenSTA**: [https://github.com/The-OpenROAD-Project/OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA)
+
 ## Acknowledgments
 
 This implementation is based on concepts and techniques described in the following research papers and technical articles:
