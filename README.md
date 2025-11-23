@@ -27,6 +27,16 @@ The design consists of:
 3. **Memory Array**: Dual-port RAM for data storage
 4. **Synchronizers**: For safe pointer transfer between domains
 
+### Block Diagram
+
+![FIFO Block Diagram](images/block_diagram.png)
+
+### Simulation Waveforms
+
+![Waveform 1](images/waveform1.png)
+
+![Waveform 2](images/waveform2.png)
+
 ## Educational Purpose
 
 This project is created for educational purposes to demonstrate:
