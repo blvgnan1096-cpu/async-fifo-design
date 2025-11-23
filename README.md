@@ -30,10 +30,25 @@ The design consists of:
 ### Block Diagram
 
 ![FIFO Block Diagram](block_diagram.png)
+Reference image from EE discussions, stats, and author profiles for this publication at: [https://www.researchgate.net/publication/252160343](https://www.researchgate.net/publication/252160343)
+
+**Simulation and Synthesis Techniques for Asynchronous FIFO Design**
+*Article · January 2002*
+CITATIONS 111  
+2 authors, including:
+- Clifford E. Cummings  
+  Sunburst Design, Inc.  
+  28 PUBLICATIONS   515 CITATIONS   SEE PROFILE
+
+All content following this page was uploaded by Clifford E. Cummings on 21 January 2015.
+READS 25,484
+
 ### Simulation Waveforms
 
 ![Waveform 1](gtkwave1.png)
 ![Waveform 2](gtkwave2.png)
+
+### Schematic diagram (schematic generated from yosys)
 ![schematic](schematic.png)
 ## Educational Purpose
 
