@@ -36,6 +36,15 @@ This project is created for educational purposes to demonstrate:
 - Metastability prevention strategies
 - RTL design best practices
 
+### Open-Source Tools Used
+
+This project utilizes the following open-source EDA tools for simulation, synthesis, and timing analysis:
+
+- **Icarus Verilog**: Open-source Verilog compiler and simulator for functional verification
+- **GTKWave**: Waveform viewer for analyzing simulation results and debugging
+- **Yosys**: Open synthesis suite for synthesizing RTL to gate-level netlists
+- **OpenSTA**: Static timing analysis tool for verifying timing constraints
+
 ## Acknowledgments
 
 This implementation is based on concepts and techniques described in the following research papers and technical articles:
