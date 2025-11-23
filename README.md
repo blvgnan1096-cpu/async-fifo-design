@@ -29,14 +29,11 @@ The design consists of:
 
 ### Block Diagram
 
-![FIFO Block Diagram](images/block_diagram.png)
-
+![FIFO Block Diagram](block_diagram.png)
 ### Simulation Waveforms
 
-![Waveform 1](images/waveform1.png)
-
-![Waveform 2](images/waveform2.png)
-
+![Waveform 1](gtkwave1.png)
+![Waveform 2](gtkwave2.png)
 ## Educational Purpose
 
 This project is created for educational purposes to demonstrate:
