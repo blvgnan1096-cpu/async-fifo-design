@@ -34,6 +34,7 @@ The design consists of:
 
 ![Waveform 1](gtkwave1.png)
 ![Waveform 2](gtkwave2.png)
+![schematic](schematic.png)
 ## Educational Purpose
 
 This project is created for educational purposes to demonstrate:
