@@ -1,6 +1,6 @@
 # Asynchronous FIFO Design
 
-This repository contains an educational implementation of an asynchronous FIFO (First-In-First-Out) buffer design in Verilog. The design handles clock domain crossing between two independent clock domains, which is a common requirement in digital systems.
+This repository contains an educational implementation of an asynchronous FIFO (First-In-First-Out) buffer design in Verilog. The design handles clock domain crossing between two independent clock domains, which is a common requirement in digital systems.The design approach starts with simulation,synthesis and prelayout Static timing analysis.
 
 ## Overview
 
