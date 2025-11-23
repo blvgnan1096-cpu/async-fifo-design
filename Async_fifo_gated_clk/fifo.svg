@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="963" height="503.5">
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="and" transform="translate(97,228)" s:width="30" s:height="25" id="cell_$abc$1211$auto$blifparse.cc:397:parse_blif$1212">
+    <s:alias val="$and"/>
+    <s:alias val="$logic_and"/>
+    <s:alias val="$_AND_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$1211$auto$blifparse.cc:397:parse_blif$1212"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="and" transform="translate(221.66666666666666,96)" s:width="30" s:height="25" id="cell_$abc$1211$auto$blifparse.cc:397:parse_blif$1213">
+    <s:alias val="$and"/>
+    <s:alias val="$logic_and"/>
+    <s:alias val="$_AND_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_$abc$1211$auto$blifparse.cc:397:parse_blif$1213"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="generic" transform="translate(717,337.5)" s:width="30" s:height="40" id="cell_fifomem_inst">
+    <text x="15" y="-4" class="nodelabel cell_fifomem_inst" s:attribute="ref">$paramod$96ebe22336453745eaf2d8e8fcb2272e629bfa13\fifomem</text>
+    <rect width="30" height="120" s:generic="body" class="cell_fifomem_inst"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_fifomem_inst~raddr">
+      <text x="-3" y="-4" class="inputPortLabel cell_fifomem_inst">raddr</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_fifomem_inst~waddr">
+      <text x="-3" y="-4" class="inputPortLabel cell_fifomem_inst">waddr</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_fifomem_inst~wclk">
+      <text x="-3" y="-4" class="inputPortLabel cell_fifomem_inst">wclk</text>
+    </g>
+    <g transform="translate(0,70)" s:x="0" s:y="10" s:pid="in0" id="port_fifomem_inst~wclken">
+      <text x="-3" y="-4" class="inputPortLabel cell_fifomem_inst">wclken</text>
+    </g>
+    <g transform="translate(0,90)" s:x="0" s:y="10" s:pid="in0" id="port_fifomem_inst~wdata">
+      <text x="-3" y="-4" class="inputPortLabel cell_fifomem_inst">wdata</text>
+    </g>
+    <g transform="translate(0,110)" s:x="0" s:y="10" s:pid="in0" id="port_fifomem_inst~wfull">
+      <text x="-3" y="-4" class="inputPortLabel cell_fifomem_inst">wfull</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_fifomem_inst~rdata">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_fifomem_inst">rdata</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(550,105.5)" s:width="30" s:height="40" id="cell_rptr_empty_inst">
+    <text x="15" y="-4" class="nodelabel cell_rptr_empty_inst" s:attribute="ref">$paramod\rptr_empty\ADDRSIZE=s32'00000000000000000000000000000100</text>
+    <rect width="30" height="80" s:generic="body" class="cell_rptr_empty_inst"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_rptr_empty_inst~rclk">
+      <text x="-3" y="-4" class="inputPortLabel cell_rptr_empty_inst">rclk</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_rptr_empty_inst~rinc">
+      <text x="-3" y="-4" class="inputPortLabel cell_rptr_empty_inst">rinc</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_rptr_empty_inst~rq2_wptr">
+      <text x="-3" y="-4" class="inputPortLabel cell_rptr_empty_inst">rq2_wptr</text>
+    </g>
+    <g transform="translate(0,70)" s:x="0" s:y="10" s:pid="in0" id="port_rptr_empty_inst~rrst_n">
+      <text x="-3" y="-4" class="inputPortLabel cell_rptr_empty_inst">rrst_n</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_rptr_empty_inst~raddr">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_rptr_empty_inst">raddr</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_rptr_empty_inst~rempty">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_rptr_empty_inst">rempty</text>
+    </g>
+    <g transform="translate(30,50)" s:x="30" s:y="10" s:pid="out0" id="port_rptr_empty_inst~rptr">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_rptr_empty_inst">rptr</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(861,168)" s:width="30" s:height="40" id="cell_sync_r2w_inst">
+    <text x="15" y="-4" class="nodelabel cell_sync_r2w_inst" s:attribute="ref">$paramod\sync_r2w\ADDRSIZE=s32'00000000000000000000000000000100</text>
+    <rect width="30" height="60" s:generic="body" class="cell_sync_r2w_inst"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_sync_r2w_inst~rptr">
+      <text x="-3" y="-4" class="inputPortLabel cell_sync_r2w_inst">rptr</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_sync_r2w_inst~wclk">
+      <text x="-3" y="-4" class="inputPortLabel cell_sync_r2w_inst">wclk</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_sync_r2w_inst~wrst_n">
+      <text x="-3" y="-4" class="inputPortLabel cell_sync_r2w_inst">wrst_n</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_sync_r2w_inst~wq2_rptr">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_sync_r2w_inst">wq2_rptr</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(381,98)" s:width="30" s:height="40" id="cell_sync_w2r_inst">
+    <text x="15" y="-4" class="nodelabel cell_sync_w2r_inst" s:attribute="ref">$paramod\sync_w2r\ADDRSIZE=s32'00000000000000000000000000000100</text>
+    <rect width="30" height="60" s:generic="body" class="cell_sync_w2r_inst"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_sync_w2r_inst~rclk">
+      <text x="-3" y="-4" class="inputPortLabel cell_sync_w2r_inst">rclk</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_sync_w2r_inst~rrst_n">
+      <text x="-3" y="-4" class="inputPortLabel cell_sync_w2r_inst">rrst_n</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_sync_w2r_inst~wptr">
+      <text x="-3" y="-4" class="inputPortLabel cell_sync_w2r_inst">wptr</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_sync_w2r_inst~rq2_wptr">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_sync_w2r_inst">rq2_wptr</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(220,261.5)" s:width="30" s:height="40" id="cell_wptr_full_inst">
+    <text x="15" y="-4" class="nodelabel cell_wptr_full_inst" s:attribute="ref">$paramod\wptr_full\ADDRSIZE=s32'00000000000000000000000000000100</text>
+    <rect width="30" height="80" s:generic="body" class="cell_wptr_full_inst"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_wptr_full_inst~wclk">
+      <text x="-3" y="-4" class="inputPortLabel cell_wptr_full_inst">wclk</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_wptr_full_inst~winc">
+      <text x="-3" y="-4" class="inputPortLabel cell_wptr_full_inst">winc</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_wptr_full_inst~wq2_rptr">
+      <text x="-3" y="-4" class="inputPortLabel cell_wptr_full_inst">wq2_rptr</text>
+    </g>
+    <g transform="translate(0,70)" s:x="0" s:y="10" s:pid="in0" id="port_wptr_full_inst~wrst_n">
+      <text x="-3" y="-4" class="inputPortLabel cell_wptr_full_inst">wrst_n</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_wptr_full_inst~waddr">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_wptr_full_inst">waddr</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_wptr_full_inst~wfull">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_wptr_full_inst">wfull</text>
+    </g>
+    <g transform="translate(30,50)" s:x="30" s:y="10" s:pid="out0" id="port_wptr_full_inst~wptr">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_wptr_full_inst">wptr</text>
+    </g>
+  </g>
+  <g s:type="outputExt" transform="translate(861,338)" s:width="30" s:height="20" id="cell_rdata">
+    <text x="15" y="-4" class="nodelabel cell_rdata" s:attribute="ref">rdata</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_rdata"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="outputExt" transform="translate(861,460.5)" s:width="30" s:height="20" id="cell_wfull">
+    <text x="15" y="-4" class="nodelabel cell_wfull" s:attribute="ref">wfull</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_wfull"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="outputExt" transform="translate(861,103)" s:width="30" s:height="20" id="cell_rempty">
+    <text x="15" y="-4" class="nodelabel cell_rempty" s:attribute="ref">rempty</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_rempty"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="inputExt" transform="translate(550,418)" s:width="30" s:height="20" id="cell_wdata">
+    <text x="15" y="-4" class="nodelabel cell_wdata" s:attribute="ref">wdata</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_wdata"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(95,387)" s:width="30" s:height="20" id="cell_winc">
+    <text x="15" y="-4" class="nodelabel cell_winc" s:attribute="ref">winc</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_winc"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,238)" s:width="30" s:height="20" id="cell_wclk">
+    <text x="15" y="-4" class="nodelabel cell_wclk" s:attribute="ref">wclk</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_wclk"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(95,322)" s:width="30" s:height="20" id="cell_wrst_n">
+    <text x="15" y="-4" class="nodelabel cell_wrst_n" s:attribute="ref">wrst_n</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_wrst_n"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(381,33)" s:width="30" s:height="20" id="cell_rinc">
+    <text x="15" y="-4" class="nodelabel cell_rinc" s:attribute="ref">rinc</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_rinc"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(95,86)" s:width="30" s:height="20" id="cell_rclk">
+    <text x="15" y="-4" class="nodelabel cell_rclk" s:attribute="ref">rclk</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_rclk"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(220,166)" s:width="30" s:height="20" id="cell_rrst_n">
+    <text x="15" y="-4" class="nodelabel cell_rrst_n" s:attribute="ref">rrst_n</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_rrst_n"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,106)" s:width="30" s:height="20" id="cell_power_en">
+    <text x="15" y="-4" class="nodelabel cell_power_en" s:attribute="ref">power_en</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_power_en"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <line x1="40" x2="70" y1="116" y2="116" class="net_26"/>
+  <line x1="70" x2="70" y1="116" y2="233" class="net_26"/>
+  <circle cx="70" cy="116" r="2" style="fill:#000" class="net_26"/>
+  <line x1="70" x2="97" y1="233" y2="233" class="net_26"/>
+  <line x1="40" x2="221.66666666666666" y1="116" y2="116" class="net_26"/>
+  <line x1="40" x2="97" y1="248" y2="248" class="net_21"/>
+  <line x1="123" x2="141" y1="96" y2="96" class="net_24"/>
+  <line x1="141" x2="141" y1="96" y2="101" class="net_24"/>
+  <line x1="141" x2="221.66666666666666" y1="101" y2="101" class="net_24"/>
+  <line x1="581" x2="670" y1="116" y2="116" class="net_29,30,31,32"/>
+  <line x1="670" x2="670" y1="116" y2="348" class="net_29,30,31,32"/>
+  <line x1="670" x2="717" y1="348" y2="348" class="net_29,30,31,32"/>
+  <line x1="251" x2="334" y1="272" y2="272" class="net_33,34,35,36"/>
+  <line x1="334" x2="334" y1="272" y2="229.5" class="net_33,34,35,36"/>
+  <line x1="334" x2="660" y1="229.5" y2="229.5" class="net_33,34,35,36"/>
+  <line x1="660" x2="660" y1="229.5" y2="368" class="net_33,34,35,36"/>
+  <line x1="660" x2="717" y1="368" y2="368" class="net_33,34,35,36"/>
+  <line x1="127" x2="650" y1="240.5" y2="240.5" class="net_27"/>
+  <line x1="650" x2="650" y1="240.5" y2="388" class="net_27"/>
+  <line x1="650" x2="717" y1="388" y2="388" class="net_27"/>
+  <line x1="127" x2="151" y1="240.5" y2="240.5" class="net_27"/>
+  <line x1="151" x2="151" y1="240.5" y2="198.5" class="net_27"/>
+  <circle cx="151" cy="240.5" r="2" style="fill:#000" class="net_27"/>
+  <line x1="151" x2="861" y1="198.5" y2="198.5" class="net_27"/>
+  <line x1="127" x2="151" y1="240.5" y2="240.5" class="net_27"/>
+  <line x1="151" x2="151" y1="240.5" y2="272" class="net_27"/>
+  <line x1="151" x2="220" y1="272" y2="272" class="net_27"/>
+  <line x1="123" x2="650" y1="397" y2="397" class="net_20"/>
+  <line x1="650" x2="650" y1="397" y2="408" class="net_20"/>
+  <line x1="650" x2="717" y1="408" y2="408" class="net_20"/>
+  <line x1="123" x2="151" y1="397" y2="397" class="net_20"/>
+  <line x1="151" x2="151" y1="397" y2="292" class="net_20"/>
+  <circle cx="151" cy="397" r="2" style="fill:#000" class="net_20"/>
+  <line x1="151" x2="220" y1="292" y2="292" class="net_20"/>
+  <line x1="578" x2="717" y1="428" y2="428" class="net_12,13,14,15,16,17,18,19"/>
+  <line x1="251" x2="334" y1="292" y2="292" class="net_10"/>
+  <line x1="334" x2="334" y1="292" y2="470.5" class="net_10"/>
+  <line x1="334" x2="650" y1="470.5" y2="470.5" class="net_10"/>
+  <line x1="650" x2="650" y1="470.5" y2="448" class="net_10"/>
+  <circle cx="650" cy="470.5" r="2" style="fill:#000" class="net_10"/>
+  <line x1="650" x2="717" y1="448" y2="448" class="net_10"/>
+  <line x1="251" x2="334" y1="292" y2="292" class="net_10"/>
+  <line x1="334" x2="334" y1="292" y2="470.5" class="net_10"/>
+  <line x1="334" x2="861" y1="470.5" y2="470.5" class="net_10"/>
+  <line x1="251.66666666666666" x2="314" y1="108.5" y2="108.5" class="net_28"/>
+  <line x1="314" x2="314" y1="108.5" y2="12" class="net_28"/>
+  <line x1="314" x2="491" y1="12" y2="12" class="net_28"/>
+  <line x1="491" x2="491" y1="12" y2="116" class="net_28"/>
+  <circle cx="314" cy="108.5" r="2" style="fill:#000" class="net_28"/>
+  <line x1="491" x2="550" y1="116" y2="116" class="net_28"/>
+  <line x1="251.66666666666666" x2="381" y1="108.5" y2="108.5" class="net_28"/>
+  <line x1="409" x2="481" y1="43" y2="43" class="net_23"/>
+  <line x1="481" x2="481" y1="43" y2="136" class="net_23"/>
+  <line x1="481" x2="550" y1="136" y2="136" class="net_23"/>
+  <line x1="412" x2="471" y1="108.5" y2="108.5" class="net_42,43,44,45,46"/>
+  <line x1="471" x2="471" y1="108.5" y2="156" class="net_42,43,44,45,46"/>
+  <line x1="471" x2="550" y1="156" y2="156" class="net_42,43,44,45,46"/>
+  <line x1="248" x2="550" y1="176" y2="176" class="net_25"/>
+  <line x1="248" x2="314" y1="176" y2="176" class="net_25"/>
+  <line x1="314" x2="314" y1="176" y2="128.5" class="net_25"/>
+  <circle cx="314" cy="176" r="2" style="fill:#000" class="net_25"/>
+  <line x1="314" x2="381" y1="128.5" y2="128.5" class="net_25"/>
+  <line x1="581" x2="799" y1="156" y2="156" class="net_37,38,39,40,41"/>
+  <line x1="799" x2="799" y1="156" y2="178.5" class="net_37,38,39,40,41"/>
+  <line x1="799" x2="861" y1="178.5" y2="178.5" class="net_37,38,39,40,41"/>
+  <line x1="123" x2="141" y1="332" y2="332" class="net_22"/>
+  <line x1="141" x2="141" y1="332" y2="218.5" class="net_22"/>
+  <circle cx="141" cy="332" r="2" style="fill:#000" class="net_22"/>
+  <line x1="141" x2="861" y1="218.5" y2="218.5" class="net_22"/>
+  <line x1="123" x2="220" y1="332" y2="332" class="net_22"/>
+  <line x1="251" x2="324" y1="312" y2="312" class="net_52,53,54,55,56"/>
+  <line x1="324" x2="324" y1="312" y2="148.5" class="net_52,53,54,55,56"/>
+  <line x1="324" x2="381" y1="148.5" y2="148.5" class="net_52,53,54,55,56"/>
+  <line x1="892" x2="951" y1="178.5" y2="178.5" class="net_47,48,49,50,51"/>
+  <line x1="951" x2="951" y1="178.5" y2="490.5" class="net_47,48,49,50,51"/>
+  <line x1="951" x2="161" y1="490.5" y2="490.5" class="net_47,48,49,50,51"/>
+  <line x1="161" x2="161" y1="490.5" y2="312" class="net_47,48,49,50,51"/>
+  <line x1="161" x2="220" y1="312" y2="312" class="net_47,48,49,50,51"/>
+  <line x1="748" x2="861" y1="348" y2="348" class="net_2,3,4,5,6,7,8,9"/>
+  <line x1="581" x2="650" y1="136" y2="136" class="net_11"/>
+  <line x1="650" x2="650" y1="136" y2="113" class="net_11"/>
+  <line x1="650" x2="861" y1="113" y2="113" class="net_11"/>
+</svg>

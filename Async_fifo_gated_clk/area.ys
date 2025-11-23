@@ -1,0 +1,8 @@
+read_liberty -lib modifed.lib
+read_verilog top.v
+
+synth -top fifo1
+dfflibmap -liberty modifed.lib
+abc -liberty modifed.lib
+stat -liberty modifed.lib
+
