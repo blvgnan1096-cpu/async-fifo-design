@@ -10,6 +10,7 @@ An asynchronous FIFO is essential when data needs to be transferred between two 
 - **Gray Code Counters**: Used for read and write pointers to prevent metastability issues
 - **Synchronization**: Multi-stage synchronizers to safely transfer pointer values across domains
 - **Full/Empty Flag Generation**: Reliable indication of FIFO status
+- **Clock Gating**:Low power design technique
 
 ## Features
 
@@ -17,7 +18,6 @@ An asynchronous FIFO is essential when data needs to be transferred between two 
 - Gray code pointer implementation
 - Two-stage synchronizers for CDC
 - Empty and full flag generation
-- Dual-port memory implementation
 
 ## Design Architecture
 
@@ -35,6 +35,7 @@ This project is created for educational purposes to demonstrate:
 - Gray code encoding/decoding
 - Metastability prevention strategies
 - RTL design best practices
+- Low power design technique
 
 ### Open-Source Tools Used
 
@@ -61,12 +62,6 @@ This implementation is based on concepts and techniques described in the followi
    - Gray code counters
    - Metastability and synchronization
 
-### Additional References
-
-- Xilinx Application Notes on FIFO design
-- Altera (Intel) guidelines for CDC design
-- IEEE papers on synchronization techniques
-
 ## Disclaimer
 
 This is an **educational project** developed for learning purposes. The design concepts and techniques are derived from publicly available research papers and technical literature in the field of digital design. All original authors and sources are acknowledged above.
@@ -77,27 +72,6 @@ This implementation should be thoroughly verified and validated before use in an
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Usage
-
-```verilog
-// Example instantiation
-async_fifo #(
-    .DATA_WIDTH(8),
-    .ADDR_WIDTH(4)
-) fifo_inst (
-    .wr_clk(wr_clk),
-    .wr_rst_n(wr_rst_n),
-    .wr_en(wr_en),
-    .wr_data(wr_data),
-    .full(full),
-    
-    .rd_clk(rd_clk),
-    .rd_rst_n(rd_rst_n),
-    .rd_en(rd_en),
-    .rd_data(rd_data),
-    .empty(empty)
-);
-```
 
 ## Contributing
 
