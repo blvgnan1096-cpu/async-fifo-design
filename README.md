@@ -91,9 +91,6 @@ This is an **educational project** developed for learning purposes. The design c
 
 This implementation should be thoroughly verified and validated before use in any production environment.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 ## Contributing
