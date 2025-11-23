@@ -1,0 +1,202 @@
+OpenSTA 2.7.0 d7cb9be1ca Copyright (c) 2025, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Startpoint: _1025_ (rising edge-triggered flip-flop clocked by rclk)
+Endpoint: _1042_ (rising edge-triggered flip-flop clocked by rclk)
+Path Group: rclk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock rclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _1025_/CLK (DFFSR)
+   0.11    0.11 ^ _1025_/Q (DFFSR)
+   0.00    0.11 ^ _1042_/D (DFFSR)
+           0.11   data arrival time
+
+   0.00    0.00   clock rclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _1042_/CLK (DFFSR)
+  -0.01   -0.01   library hold time
+          -0.01   data required time
+---------------------------------------------------------
+          -0.01   data required time
+          -0.11   data arrival time
+---------------------------------------------------------
+           0.12   slack (MET)
+
+
+Startpoint: _0991_ (rising edge-triggered flip-flop clocked by wclk)
+Endpoint: _0991_ (rising edge-triggered flip-flop clocked by wclk)
+Path Group: wclk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock wclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _0991_/CLK (DFFPOSX1)
+   0.07    0.07 ^ _0991_/Q (DFFPOSX1)
+   0.02    0.09 v _0784_/Y (MUX2X1)
+   0.00    0.08 ^ _0785_/Y (INVX1)
+   0.00    0.08 ^ _0991_/D (DFFPOSX1)
+           0.08   data arrival time
+
+   0.00    0.00   clock wclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _0991_/CLK (DFFPOSX1)
+  -0.02   -0.02   library hold time
+          -0.02   data required time
+---------------------------------------------------------
+          -0.02   data required time
+          -0.08   data arrival time
+---------------------------------------------------------
+           0.11   slack (MET)
+
+
+Startpoint: _1032_ (rising edge-triggered flip-flop clocked by rclk)
+Endpoint: rdata[1] (output port clocked by rclk)
+Path Group: rclk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock rclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _1032_/CLK (DFFSR)
+   0.85    0.85 ^ _1032_/Q (DFFSR)
+   0.30    1.14 v _0456_/Y (INVX1)
+   0.18    1.32 ^ _0540_/Y (NAND2X1)
+   0.05    1.38 v _0544_/Y (AOI22X1)
+   0.05    1.42 ^ _0548_/Y (MUX2X1)
+   0.02    1.45 v _0549_/Y (MUX2X1)
+   0.00    1.45 v rdata[1] (out)
+           1.45   data arrival time
+
+  10.00   10.00   clock rclk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -1.00    9.00   output external delay
+           9.00   data required time
+---------------------------------------------------------
+           9.00   data required time
+          -1.45   data arrival time
+---------------------------------------------------------
+           7.55   slack (MET)
+
+
+Startpoint: winc (input port clocked by wclk)
+Endpoint: _0974_ (rising edge-triggered flip-flop clocked by wclk)
+Path Group: wclk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock wclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   1.00    1.00 v input external delay
+   0.00    1.00 v winc (in)
+   0.01    1.01 ^ _0459_/Y (INVX1)
+   0.06    1.07 v _0464_/Y (NOR3X1)
+   0.17    1.24 ^ _0478_/Y (NAND3X1)
+   0.07    1.31 v _0479_/Y (XOR2X1)
+   0.07    1.38 ^ _0481_/Y (MUX2X1)
+   0.04    1.42 v _0507_/Y (XNOR2X1)
+   0.05    1.47 ^ _0513_/Y (NOR3X1)
+   0.00    1.47 ^ _0974_/D (DFFSR)
+           1.47   data arrival time
+
+  10.00   10.00   clock wclk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _0974_/CLK (DFFSR)
+  -0.09    9.91   library setup time
+           9.91   data required time
+---------------------------------------------------------
+           9.91   data required time
+          -1.47   data arrival time
+---------------------------------------------------------
+           8.44   slack (MET)
+
+
+wns max 0.00
+wns min 0.00
+tns max 0.00
+tns min 0.00
+worst slack max 7.55
+Clock rclk
+   0.14 source latency _1024_/CLK ^
+  -0.14 target latency _1024_/CLK ^
+   0.00 CRPR
+--------------
+   0.00 setup skew
+
+Clock wclk
+   3.39 source latency _0934_/CLK ^
+  -3.39 target latency _0934_/CLK ^
+   0.00 CRPR
+--------------
+   0.00 setup skew
+
+Clock rclk
+rise -> rise
+    min     max
+   0.00    0.00 source latency
+   0.14         network latency _1024_/CLK
+           0.14 network latency _1024_/CLK
+---------------
+   0.14    0.14 latency
+           0.00 skew
+
+fall -> fall
+    min     max
+   0.00    0.00 source latency
+   0.10         network latency _1024_/CLK
+           0.10 network latency _1024_/CLK
+---------------
+   0.10    0.10 latency
+           0.00 skew
+
+
+rclk period_min = 1.48 fmax = 675.15
+Clock wclk
+rise -> rise
+    min     max
+   0.00    0.00 source latency
+   3.39         network latency _0934_/CLK
+           3.39 network latency _0934_/CLK
+---------------
+   3.39    3.39 latency
+           0.00 skew
+
+fall -> fall
+    min     max
+   0.00    0.00 source latency
+   2.23         network latency _0934_/CLK
+           2.23 network latency _0934_/CLK
+---------------
+   2.23    2.23 latency
+           0.00 skew
+
+
+wclk period_min = 0.18 fmax = 5413.37
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             4.45e-04   8.17e-05   1.14e-05   5.38e-04  51.9%
+Combinational          3.13e-04   1.09e-04   5.57e-06   4.28e-04  41.2%
+Clock                  6.48e-07   7.13e-05   3.12e-08   7.19e-05   6.9%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  7.59e-04   2.62e-04   1.70e-05   1.04e-03 100.0%
+                          73.1%      25.2%       1.6%
+% 
+
+
