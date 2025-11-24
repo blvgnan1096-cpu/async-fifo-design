@@ -141,9 +141,9 @@ This implementation is based on concepts and techniques described in the followi
 - Leakage: 1.6%
   
 **Max bit rate for Asynchronous fifo**
--The actual bit rate should use your FIFO's data width:
--Max Bit Rate = 675.15 × 10⁶ × [Data Width in bits] bits/sec 
--Replace **8** with your specific width for exact numbers.
+- The actual bit rate should use your FIFO's data width:
+- Max Bit Rate = 675.15 × 10⁶ × [Data Width in bits] bits/sec 
+- Replace **8** with your specific width for exact numbers.
 ---
 
 **Note:**  
