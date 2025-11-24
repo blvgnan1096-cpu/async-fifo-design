@@ -177,5 +177,17 @@ This is an educational project. Suggestions and improvements are welcome!
 For questions or discussions about this implementation, please open an issue in this repository.
 
 ---
+## License and Attribution
+
+- This project uses the **Nangate Open Cell Library** (FreePDK45), which is provided under the Apache License 2.0 for research and educational purposes.
+
+**Nangate Open Cell Library:**
+- Copyright Nangate Inc.
+- Licensed under Apache License 2.0
+- Source: [Si2 Open Cell Library](https://si2.org/)
+
+- For the full license text, see the LICENSE file in this repository.
+
+**Note:** This library is for educational and research purposes only and is not intended for commercial fabrication.
 
 **Note**: This project is for educational purposes only. Proper citation and acknowledgment of all referenced sources have been provided to respect intellectual property and copyright.
