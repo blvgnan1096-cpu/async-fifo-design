@@ -94,6 +94,60 @@ This implementation is based on concepts and techniques described in the followi
    - Gray code counters
    - Metastability and synchronization
 
+## Synthesis and Timing Analysis Results
+
+### Read Clock (rclk)
+- **Minimum Period:** 1.48 ns  
+- **Maximum Frequency (fmax):** 675.15 MHz  
+
+**Clock Network Latency (rise → rise):**
+| Type             | Min (ns) | Max (ns) |
+|------------------|-----------|-----------|
+| Source Latency   | 0.00 | 0.00 |
+| Network Latency (_0934_/CLK) | 3.39 | 3.39 |
+| **Total Latency** | **3.39** | **3.39** |
+| **Skew**          | **0.00 ns** | |
+
+**Clock Network Latency (fall → fall):**
+| Type             | Min (ns) | Max (ns) |
+|------------------|-----------|-----------|
+| Source Latency   | 0.00 | 0.00 |
+| Network Latency (_0934_/CLK) | 2.23 | 2.23 |
+| **Total Latency** | **2.23** | **2.23** |
+| **Skew**          | **0.00 ns** | |
+
+---
+
+### Write Clock (wclk)
+- **Minimum Period:** 0.18 ns  
+- **Maximum Frequency (fmax):** 5413.37 MHz  
+
+---
+
+### Power Analysis
+
+| Group          | Internal Power (W) | Switching Power (W) | Leakage Power (W) | Total Power (W) | Contribution (%) |
+|----------------|--------------------|----------------------|-------------------|-----------------|------------------|
+| Sequential     | 4.45e-04 | 8.17e-05 | 1.14e-05 | 5.38e-04 | 51.9% |
+| Combinational  | 3.13e-04 | 1.09e-04 | 5.57e-06 | 4.28e-04 | 41.2% |
+| Clock          | 6.48e-07 | 7.13e-05 | 3.12e-08 | 7.19e-05 | 6.9% |
+| Macro          | 0.00e+00 | 0.00e+00 | 0.00e+00 | 0.00e+00 | 0.0% |
+| Pad            | 0.00e+00 | 0.00e+00 | 0.00e+00 | 0.00e+00 | 0.0% |
+| **Total**      | **7.59e-04** | **2.62e-04** | **1.70e-05** | **1.04e-03** | **100%** |
+
+**Power Distribution:**
+- Internal: 73.1%  
+- Switching: 25.2%  
+- Leakage: 1.6%
+
+---
+
+### Summary
+- Read clock operates up to **675.15 MHz** (period 1.48 ns).  
+- Write clock operates up to **5413.37 MHz** (period 0.18 ns).  
+- Total estimated power consumption: **1.04 mW**.  
+
+
 ## Disclaimer
 
 This is an **educational project** developed for learning purposes. The design concepts and techniques are derived from publicly available research papers and technical literature in the field of digital design. All original authors and sources are acknowledged above.
