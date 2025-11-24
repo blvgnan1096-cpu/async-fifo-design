@@ -139,16 +139,11 @@ This implementation is based on concepts and techniques described in the followi
 - Internal: 73.1%  
 - Switching: 25.2%  
 - Leakage: 1.6%
-
+**Max bit rate for Asynchronous fifo**
+The actual bit rate should use your FIFO's data width:
+Max Bit Rate = 675.15 × 10⁶ × [Data Width in bits] bits/sec 
+Replace **8** with your specific width for exact numbers.
 ---
-
-> The actual bit rate should use your FIFO's data width:
-> 
-> ```
- Max Bit Rate = 675.15 × 10⁶ × [Data Width in bits] bits/sec
-> ```
-> 
-> Replace **8** with your specific width for exact numbers.
 
 **Note:**  
 - The bit rate is fundamentally limited by the slower clock domain (here, the read clock).
