@@ -142,6 +142,22 @@ This implementation is based on concepts and techniques described in the followi
 
 ---
 
+> The actual bit rate should use your FIFO's data width:
+> 
+> ```
+ Max Bit Rate = 675.15 × 10⁶ × [Data Width in bits] bits/sec
+> ```
+> 
+> Replace **8** with your specific width for exact numbers.
+
+**Note:**  
+- The bit rate is fundamentally limited by the slower clock domain (here, the read clock).
+- Synchronization logic and FIFO pointer latency do not affect the peak throughput, provided FIFO underflow/overflow is avoided.
+
+---
+
+
+
 ### Summary
 - Read clock operates up to **675.15 MHz** (period 1.48 ns).  
 - Write clock operates up to **5413.37 MHz** (period 0.18 ns).  
